@@ -1,0 +1,23 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0c0b0a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #c8aa79;
+  color: #111;
+}
